@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #B1B2FF;
+}
+
+.titulo {
+    font-family: 'Nabla', cursive;
+    font-size: 40px;
+    color: white
+    
+}
+
+input {
+    background-color: aquamarine; 
+}
+
+/* # indica un ID */
+#boton-mascota {
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid;
+    font-family: 'Bebas Neue', cursive;
+    margin: 20px 0px 0px 0px;
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+
+}
+
+.subtitulo{
+font-size: 20px;
+}
+
+/* el . está asociado a una clase */
+.tarjeta-de-mokepon {
+    width: 180px;
+    height: 100px;
+    background: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tarjeta-de-mokepon img {
+width: 80px;
+
+}
