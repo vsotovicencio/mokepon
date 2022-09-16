@@ -89,7 +89,6 @@ function ataqueTierra() {
     ataqueAleatorioEnemigo()
 }
 
-
 //Asigna un número aleatorio a las variable ataqueEnemigo (asigna FUEGO, AGUA o TIERRA)
 function ataqueAleatorioEnemigo() {
     //Muestro la siguiente sección Mensajes y Resultado
